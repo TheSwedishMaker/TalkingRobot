@@ -9,7 +9,7 @@ SoftwareSerial mySerial(10, 11); //RX, TX
 DFPlayerMini_Fast myMP3;
 
 //Time for sensor calibration
-int calibrationTime = 3;       
+int calibrationTime = 30;       
  
 //low impulse time from sensor 
 long unsigned int lowIn;        
